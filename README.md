@@ -1,7 +1,7 @@
 # Projeto_DC_Site
 
 # Introdução
-- Criação de uma pagina web sobre a editora americana DC Comics
+- Criação de uma pagina web sobre a editora americana DC Comics.
 
 # Linguagens Usadas
 - HTML: Criação da interdace da pagina (Esqueleto da Pagina)
