@@ -1,0 +1,107 @@
+body{
+    background-color: #282828;
+    color: #fff;
+}
+
+.home{
+    display: flex; /* Coloca os items um do lado do outro*/
+    position: relative; /* Adiciona uma posição */
+    min-height: calc(100vh - 80px) ; /* Altura minima */
+
+}
+
+.home::after{
+    background-color: blue; /* Cor de Fundo */
+    content: "";
+    position: absolute; /* absolute: muda o fluxo e tras a imagem pra frente de todos os elementos */
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%); /* Adiciona um efeito de sombra */
+    height: 100%; /* Define uma altura */
+    width: 100%; /* Define uma largura */
+}
+
+
+
+.cabecalho{
+    height: 80px; /* Da uma altura max para o cabeçalho*/
+    background-color: #0b0b0b; /* cor de fundo*/
+    display: flex;  /* Coloca os items um do lado do outro*/
+    justify-content: space-between; /* Espaço entre os filhos*/
+    align-items: center; /* Alinhar os itens no centro */
+    padding: 0 80px  0 80px; /* Espaçamento interno de todos os elementos(Sentido Horario), Cima: 0   Direita: 80   Em baixo: 0  Esquerda: 80 */
+    border-bottom: 1px solid #282828; /* Adiciona uma borda de 1px*/
+}
+
+.cabecalho .logo{
+    display: flex;  /* Coloca os items um do lado do outro*/
+    gap: 30px; /* Espaçamento de 30 px*/
+}
+
+.cabecalho .logo img{
+    width: 40px;
+}
+
+.cabecalho .menu{
+    display: flex; /* Coloca os items um do lado do outro*/
+    gap: 30px; /* Espaçamento de 30 px*/
+}
+
+.cabecalho .menu li a{
+    padding: 30px; /* Espaçamento interno */
+    color: #e8e8e8; /* Cor da Fonte */
+    font-weight: bolder; /* Fonte forte */
+    font-size: 15px; /* Tamanho da fonte*/
+    font-family: "Chalet"; /* Fonte estilo*/
+    font-weight:lighter;
+}
+
+.cabecalho .menu li a:hover{
+
+    border-bottom: 2px solid #fff; /* Aplica uma borda branco quanto passar o mause em cima dos itens */
+}
+
+.btn-plataforma{
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+
+.personagens {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover padding padrão */
+    text-align: center;
+   
+    
+    
+}
+
+
+
+.personagens li {
+    display: inline-block; /* Exibir os itens da lista em linha */
+    margin-right: 10px; /* Espaçamento entre as imagens */
+    padding: 20px;
+    
+}
+
+.personagens li:last-child {
+    margin-right: 0; /* Remover a margem da última imagem */
+    
+}
+
+.personagens img {
+    width: 250px; /* Definindo a largura da imagem */
+    height: auto; /* Mantendo a proporção da imagem */
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+
+.texto{
+    font-family: "Chalet";
+    padding: 4cqmin;
+}
+
