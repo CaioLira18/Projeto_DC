@@ -11,3 +11,6 @@
 # Objetivos do Projeto:
 - Aprimorar os conhecimentos no Web design
 - Conhecer mais sobre o JS e suas funções dentro de um site
+
+# Status
+- Projeto ainda em andamento
